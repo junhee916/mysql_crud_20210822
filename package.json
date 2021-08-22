@@ -1,0 +1,30 @@
+{
+  "name": "mysql_crud_20210822",
+  "version": "1.0.0",
+  "description": "mysql_crud_20210822",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junhee916/mysql_crud_20210822.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junhee916/mysql_crud_20210822/issues"
+  },
+  "homepage": "https://github.com/junhee916/mysql_crud_20210822#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
